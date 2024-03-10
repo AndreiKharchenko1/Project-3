@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="styles.css" id="themeStylesheet">
+    <script src="javathehutt.js"></script>
+    <title>A.k. Project 3 webpage</title>
+    <style>
+       
+    </style>
+</head>
+<buddy>
+
+    <h1> Andrei K</h1>
+    <img src="https://yt3.googleusercontent.com/JIYJOdRcWBikkix9MGFF-jhXkWiHtQwcfWpLJoDgfcw4mMnZ2tw74FVYagVclBqrjwPfhN972Q=s176-c-k-c0x00ffffff-no-rj"></img>
+    <h2>2024</h2>
+    <img src="https://i.imgur.com/iXk5nPF.png"></img>
+    <h2>Socials</h2>
+    <a href="https://www.youtube.com/@-andreiDNA/featured">AndreiDNA</a>
+</buddy>
+<body>
+    
+   
+    <div id="left-section" class="section">
+        <div class="input-container">
+            <input type="text" class="text-input" placeholder="Enter numbers separated by commas or spaces" id="NumberStatistics">
+        </div>
+        
+        <button class="button" onclick="runstats()">Statistics on input numbers</button>
+        
+            <h4 id="Statistics" style="display: none"> Highest Number is : <span id="highestnumber"></span> Lowest Number is : <span id="lowestnumber"></span>  Average/Mean Number is : <span id="averagenumber"></span></h4>
+            <h4 id="Statistics-2" style="display: none"> Bottom Quartile '0-25%' is from <span id="lowestnumber-2"></span> to <span id="25number"></span></h4>
+            <h4 id="Statistics-3" style="display: none"> 2nd Quartile '25-50%' is from <span id="25number-2"></span> to <span id="50number"></span></h4>
+            <h4 id="Statistics-4" style="display: none"> 3rd Quartile '50-75%' is from <span id="50number-2"></span> to <span id="75number"></span></h4>
+            <h4 id="Statistics-5" style="display: none"> Top Quartile '75-100%' is from <span id="75number-2"></span> to <span id="100number"></span></h4>
+    </div>
+
+    <div id="right-section" class="section">
+        <p>When entering, enter the lower bound of the integral followed by the upper bound, followed by the coefficient #1 followed by the power of x#1 followed by the sign of x#1 followed by the sign '-/+' followed by coefficient #2 and so on and so forth. If you ran out of terms, input 'z' and follow that by terminal. Separate by spaces</p>
+
+        <div class="input-container">
+            <input type="text" class="text-input" placeholder="Enter values" id="Integration">
+        </div>
+        <button class="button" onclick="integrate()">Integrate</button>
+
+        <h4>For example: An integral of 4x^2 + 3x + 1 from 0 to 10 would be written as :0 10 4 2 + 3 1 + 1</h4>
+        <h4>Do not write integrals that contain more than 3 parts - everything after the last part will be ignored. You can split your large integral into two or more smaller pieces and run them through this tool piece by piece instead</h4>
+        <h4>If your integral has less than 3 parts, write '0' for all characters after the last term. There should be 8 in total. Write '+' for the Sign characters.</h4>
+    </div>
+</body>
+<script>
+  
+</script>
+</html>
